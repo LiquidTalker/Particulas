@@ -9,7 +9,7 @@ void setup() {
   lights(); //Efectos en caso de querer usar 3D
   frameRate(60);
   sdps = new SistemaDeParticula(new PVector(width/2, height/2)); //Las particulas irán al centro de la ventana
-  p = new SistemaDeParticula(new PVector(width/2, height/2));
+  p = new SistemaDeParticula(new PVector(width/2, height/2)); //Las particulas irán al centro de la ventana
 }
 
 void draw() {

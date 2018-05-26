@@ -16,7 +16,7 @@ class SistemaDeParticula {
   public void mostrar() {
     for (int i = particulas.size()-1; i >= 0; i--) {
       Particula p = particulas.get(i);
-      p.correr();
+      p.correr(); //Ejecuta el metodo que mostrará las particulas y las que determina su ciclo
       if (p.muerte()) { //Si las particulas cumplen su ciclo, desaparecen 
         particulas.remove(i);
       }

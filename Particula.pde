@@ -10,7 +10,9 @@ class Particula {
     this.aceleracion = new PVector(0, 0.05);
     this.vida = 255; //Tiempo que tardara una particula 
   }  
-
+  
+  //Función que sirve para mejorar la funcionalidad del programa llamando a la función que hará que desaparezcan las particulas
+  //Y la que las dibuja 
   public void correr() {
     actualizar();
     mostrar();
